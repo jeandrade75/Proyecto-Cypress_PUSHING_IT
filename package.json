@@ -1,0 +1,22 @@
+{
+  "name": "curso-cypress_pushing_it",
+  "version": "1.0.0",
+  "description": "E2E Framework Testing Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "npx cypress open --e2e -b electron"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "testing",
+    "cypress"
+  ],
+  "author": "Andrade Jean",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
